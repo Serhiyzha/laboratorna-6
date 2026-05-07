@@ -27,7 +27,8 @@ namespace ClassLibrary1
             return result;
         }
         public string shortest()
-        {             if (items.Count == 0)
+        {
+            if (items.Count == 0)
             {
                 return "";
             }
